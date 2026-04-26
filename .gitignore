@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Google Earth Engine credentials (RAHASIA)
+credentials.json
+service_account.json
+*.json.key
+token.json
+.config/
+
+# Folder output & upload (isi dinamis, tidak perlu di-commit)
+backend/uploads/*
+backend/outputs/*
+
+# Tapi tetap buat foldernya ada di repo
+!backend/uploads/.gitkeep
+!backend/outputs/.gitkeep
+
+# VSCode (opsional, kalau kerja tim mending di-ignore)
+.vscode/
